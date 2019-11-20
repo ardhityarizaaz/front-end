@@ -1,0 +1,110 @@
+/*  
+ 
+    
+    #text{
+        color: blue;
+    
+    }
+    
+    .merah{
+        color: red;
+    }
+    
+    .ukuran{
+        font-size: 20px;
+        border: 1px solid orange;
+    }
+    
+    .parent{
+        width: 100px;
+        border: 1px solid green;
+        height: 200px;
+        overflow: hidden;
+    
+    }
+    
+    .parent:hover{
+        overflow: auto;
+        cursor: pointer;
+    
+    }
+    
+    .parent:hover .merah{
+        color: white;
+        background-color: black;
+    
+    }
+    
+    .container{
+        background-color: black;
+        height: 350px;
+        width: 350px;
+        padding: 20px 10px 20px 10px;
+    }
+    
+    .component{
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }    */
+
+
+    *{
+
+        margin : 0;
+    
+        
+    }
+        
+    body{
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .bawah{
+        text-align: center;
+        background-color: grey;
+        height: 100px;
+    }
+
+    .atas{
+        background-color: grey;
+        height: 100px;
+    }
+
+    .tengah{
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .bawah > h1 {
+        padding-top: 50px;
+    }
+
+    .tengahkiri{
+        background-color: darkslategray;
+    }
+
+    .tengahkanan h1{
+        color: black;
+        margin-left: 50px;
+        padding: 60px;
+    }
+
+    .tengahkiri{
+        padding: 50px;
+    }
+
+    .atas h1{
+        padding: 20px;
+    }
+
+    .bawah h1{
+        padding: 20px;
+    }
+
